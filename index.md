@@ -1,143 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Untitled</title>
+    <title>Login - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/Header-Blue.css">
-    <link rel="stylesheet" href="assets/css/Navigation-with-Search.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
 </head>
 
-<body><div class="megaMenu">
-    <nav class="navbar navbar-light bg-light navbar-expand-lg" id="myNavbar">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
-            aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav mr-auto nav-fill">
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-4 dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-
-
-                    <div class="dropdown-menu dropdown-menu-left" aria-labelledby="servicesDropdown">
-
-
-                        <a class="dropdown-item" href="#">What we do</a>
-                        <a class="dropdown-item" href="#">How we fit your needs</a>
-
-
-                        <div class="dropdown-divider"></div>
-
-
-                        <div class="d-md-flex align-items-start justify-content-start">
-
-                            <div>
-                                <div class="dropdown-header">Development</div>
-                                <a class="dropdown-item" href="#">Bespoke software</a>
-                                <a class="dropdown-item" href="#">Mobile apps</a>
-                                <a class="dropdown-item" href="#">Websites</a>
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 col-lg-12 col-xl-10">
+                <div class="card shadow-lg o-hidden border-0 my-5">
+                    <div class="card-body p-0">
+                        <div class="row">
+                            <div class="col-lg-6 d-none d-lg-flex">
+                                <div class="flex-grow-1 bg-login-image" style="background-image: url(&quot;assets/img/dogs/image3.jpeg&quot;);"></div>
                             </div>
-
-                            <div>
-                                <div class="dropdown-header">Professional Services</div>
-                                <a class="dropdown-item" href="#">Project rescue</a>
-                                <a class="dropdown-item" href="#">Source code recovery</a>
-                                <a class="dropdown-item" href="#">Application support &amp; maintenance</a>
-                            </div>
-
-                            <div>
-                                <div class="dropdown-header">Fixed Price Services</div>
-                                <a class="dropdown-item" href="#">Add cookie consent</a>
-                                <a class="dropdown-item" href="#">Add captcha</a>
-                                <a class="dropdown-item" href="#">Add core data</a>
-                                <a class="dropdown-item" href="#">Custom error pages</a>
-                                <a class="dropdown-item" href="#">Contact form creation</a>
-                                <a class="dropdown-item" href="#">Automated backups</a>
-                                <a class="dropdown-item" href="#">Image to HTML</a>
+                            <div class="col-lg-6">
+                                <div class="p-5">
+                                    <div class="text-center">
+                                        <h4 class="text-dark mb-4">Welcome Back!</h4>
+                                    </div>
+                                    <form class="user">
+                                        <div class="mb-3"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address..." name="email"></div>
+                                        <div class="mb-3"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="Password" name="password"></div>
+                                        <div class="mb-3">
+                                            <div class="custom-control custom-checkbox small">
+                                                <div class="form-check"><input class="form-check-input custom-control-input" type="checkbox" id="formCheck-1"><label class="form-check-label custom-control-label" for="formCheck-1">Remember Me</label></div>
+                                            </div>
+                                        </div><button class="btn btn-primary d-block btn-user w-100" type="submit">Login</button>
+                                        <hr><a class="btn btn-primary d-block btn-google btn-user w-100 mb-2" role="button"><i class="fab fa-google"></i>&nbsp; Login with Google</a><a class="btn btn-primary d-block btn-facebook btn-user w-100" role="button"><i class="fab fa-facebook-f"></i>&nbsp; Login with Facebook</a>
+                                        <hr>
+                                    </form>
+                                    <div class="text-center"><a class="small" href="forgot-password.html">Forgot Password?</a></div>
+                                    <div class="text-center"><a class="small" href="register.html">Create an Account!</a></div>
+                                </div>
                             </div>
                         </div>
-                </li>
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Blog</a>
-                </li>
-            </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <a href="" class="navbar-brand">Nav Brand</a>
-        <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ml-auto nav-fill">
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-4 dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-
-
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="servicesDropdown">
-
-
-                        <a class="dropdown-item" href="#">What we do</a>
-                        <a class="dropdown-item" href="#">How we fit your needs</a>
-
-
-                        <div class="dropdown-divider"></div>
-
-
-                        <div class="d-md-flex align-items-start justify-content-start">
-
-                            <div>
-                                <div class="dropdown-header">Development</div>
-                                <a class="dropdown-item" href="#">Bespoke software</a>
-                                <a class="dropdown-item" href="#">Mobile apps</a>
-                                <a class="dropdown-item" href="#">Websites</a>
-                            </div>
-
-                            <div>
-                                <div class="dropdown-header">Professional Services</div>
-                                <a class="dropdown-item" href="#">Project rescue</a>
-                                <a class="dropdown-item" href="#">Source code recovery</a>
-                                <a class="dropdown-item" href="#">Application support &amp; maintenance</a>
-                            </div>
-
-                            <div>
-                                <div class="dropdown-header">Fixed Price Services</div>
-                                <a class="dropdown-item" href="#">Add cookie consent</a>
-                                <a class="dropdown-item" href="#">Add captcha</a>
-                                <a class="dropdown-item" href="#">Add core data</a>
-                                <a class="dropdown-item" href="#">Custom error pages</a>
-                                <a class="dropdown-item" href="#">Contact form creation</a>
-                                <a class="dropdown-item" href="#">Automated backups</a>
-                                <a class="dropdown-item" href="#">Image to HTML</a>
-                            </div>
-                        </div>
-                </li>
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item px-4">
-                    <a href="#" class="nav-link">Blog</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
+    </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/theme.js"></script>
 </body>
 
 </html>
